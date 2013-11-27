@@ -1,0 +1,30 @@
+The looking-glass hatta () 
+opened
+  The looking-glass print (number x)
+  opened
+   x said Alice and "\n" spoke.
+  closed
+ 
+  x was a number of 100.
+  print(x).
+
+  opened
+    x was a number of 99.
+    print(x).
+    
+    opened
+      x was a number of 98.
+      print(x).
+    closed
+ 
+    opened
+      print(x).
+      opened
+        x was a number of 97.
+        print(x).
+      closed 
+    closed
+  closed
+
+closed
+

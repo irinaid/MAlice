@@ -1,0 +1,33 @@
+x was a number.
+y was a number.
+z was a number.
+
+The looking-glass compare ()
+opened
+  perhaps (x > y) so
+    perhaps (x > z) so
+      x said Alice and " is biggest\n" spoke.
+    or
+      z said Alice and " is biggest\n" spoke.
+    because Alice was unsure which
+  or
+    perhaps (y > z) so
+      y said Alice and " is biggest\n" spoke.
+    or 
+      z said Alice and " is biggest\n" spoke.
+    because Alice was unsure which 
+  because Alice was unsure which
+closed
+
+The looking-glass hatta () 
+opened
+  "Enter a number" spoke.
+  what was x?
+  "Enter a number" spoke.
+  what was y?
+  "Enter a number" spoke.
+  what was z?
+  compare().  
+closed
+
+

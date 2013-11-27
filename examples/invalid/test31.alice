@@ -1,0 +1,11 @@
+The looking-glass proc (number x, number y)
+opened
+closed
+
+The looking-glass hatta ()
+opened 
+  proc (5).
+  proc (5, 6, 7).
+  proc (5, 'a').
+  proc ("MAlice labs", 6).
+closed

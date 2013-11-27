@@ -1,0 +1,11 @@
+
+The looking-glass proc ()
+opened
+  arr had 10 number.
+  proc().
+closed
+
+The looking-glass hatta ()
+opened 
+  proc().
+closed

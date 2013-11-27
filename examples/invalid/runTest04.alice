@@ -1,0 +1,13 @@
+arrLen was a number of 15.
+
+The looking-glass proc (spider number arr)
+opened
+  arr's arrLen piece became arrLen.
+closed
+
+The looking-glass hatta ()
+opened 
+  x was a number of arrLen.
+  arr had x number.
+  proc(arr).
+closed

@@ -1,0 +1,35 @@
+Below is a description of each test case:
+=========================================
+test01.alice : variable declarations at global scope, letter, number, print, procedure, procedure call
+test02.alice : variable with same name in global and nested procedure scope
+test03.alice : function, unary minus, if-then-else statement, function call expression
+test04.alice : read statement
+test05.alice : relational operators (<=, >=, >, <), null statement
+test06.alice : string literal, other type of if-then-else statement, relational operator (==)
+test07.alice : nested procedure with same name as enclosing procedure, variable visible in nested procedure declared in outer procedure
+test08.alice : two nested procedures and call expression passed as a parameter
+test09.alice : nested if statements
+test10.alice : nested blocks with the same variable name utilised in each nested block
+test11.alice : array declaration, initialisation and use of array elements as l-values and r-values
+test12.alice : loop statements, character array, increment and decrement statements, logical not, logical or, logical and
+test13.alice : passing array by reference
+test14.alice : passing array by reference down the call stack
+test15.alice : array in global scope with inner declared array of same name, passing a specific array value
+
+There are also "real" programs:
+===============================
+ackermann.alice: computes the Ackermann value of two non-negative integers
+
+binarySearch.alice: binary search using iteration
+
+bubbleSort.alice: classic bubble sort
+
+fibonnaciIterative.alice: computes the nth number in the Fibonacci sequence using iteration
+fibonnaciRecursive.alice: computes the nth number in the Fibonacci sequence using recursion
+
+gcdIterative.alice: computes the greatest common divisor using iteration
+gcdRecursive.alice: computes the greatest common divisor using recurion
+
+sieveOfEratosthenes: computes which numbers are prime up to a specific limit
+
+vectorFunctions.alice: computes the dot product and cross product of vectors

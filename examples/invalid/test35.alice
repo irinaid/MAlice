@@ -1,0 +1,23 @@
+
+The room func1 () contained a number
+opened
+  Alice found 'a'.
+closed
+
+The room func2 () contained a sentence
+opened
+  Alice found 'a'.
+closed
+
+The room func3 () contained a letter
+opened
+  Alice found 4.
+closed
+
+The looking-glass hatta ()
+opened
+  x was a number, y was a sentence and z was a letter too,
+  x became func1 ().
+  y became func2 ().
+  z became func3 ().
+closed

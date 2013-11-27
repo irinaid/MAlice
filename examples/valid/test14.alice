@@ -1,0 +1,39 @@
+arrLen was a number of 100.
+
+The looking-glass output (spider number arr)
+opened
+  i was a number of 0.
+  eventually (i == arrLen) because
+   "arr[" spoke, i spoke, "] = " spoke and arr's i piece spoke, "\n" said Alice.
+   i ate.
+  enough times
+closed
+
+The looking-glass initialise2 (spider number arr, number startIndex)
+opened
+  i was a number of startIndex.
+  eventually (i == arrLen) because
+   arr's i piece became 2.
+   i ate.
+  enough times
+
+  output(arr).
+closed
+
+The looking-glass initialise (spider number arr)
+opened
+  i was a number of 0.
+  eventually (i == arrLen/2) because
+   arr's i piece became 1.
+   i ate.
+  enough times
+
+  initialise2(arr, i).
+closed
+
+The looking-glass hatta ()
+opened
+  arr had arrLen number.
+  initialise(arr).
+closed
+

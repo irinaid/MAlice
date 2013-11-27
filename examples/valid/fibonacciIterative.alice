@@ -1,0 +1,23 @@
+
+The room fibonacci (number x) contained a number
+opened
+  fib0 was a number of 0 and fib1 was a number of 1 and i was a number.
+  i became 0.
+  eventually (i >= x) because
+    opened
+      temp was a number and temp became fib0.
+      fib0 became fib1.
+      fib1 became temp + fib1.
+    closed
+    i ate.
+  enough times.
+  Alice found fib0.
+closed
+
+The looking-glass hatta ()
+opened
+   x was a number, y was a number. 
+   "Which term in the Fibonacci sequence shall I compute?" spoke, what was x?.
+   y became fibonacci(x).
+   "Fib number " spoke and x said Alice and " = " spoke and y said Alice.
+closed

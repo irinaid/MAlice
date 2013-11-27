@@ -1,0 +1,23 @@
+The looking-glass hatta () 
+  opened
+  The room isSet (number x) contained a number
+  opened
+    perhaps ((x & 16) == 16) so
+      Alice found 1.
+    or
+      Alice found 0.
+    because Alice was unsure which.
+  closed
+
+  The looking-glass print (number x)
+  opened 
+    perhaps (x == 1) so
+      "x's fourth bit is set" said Alice.
+    or
+      "x's fourth bit is NOT set" said Alice.
+    because Alice was unsure which.
+    "\n" spoke.
+  closed  
+
+  print(isSet(10)) then print(isSet(50)).
+closed

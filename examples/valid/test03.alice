@@ -1,0 +1,15 @@
+The room abs (number x) contained a number
+opened
+  perhaps (x < 0) so
+    Alice found -x.
+  or
+    Alice found x.
+  because Alice was unsure which
+closed
+
+The looking-glass hatta () 
+opened
+  x was a number of 1, y was a number of -1.
+  abs(x) spoke and "\n" said Alice but abs(y) spoke.
+closed
+

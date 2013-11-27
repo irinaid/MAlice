@@ -1,0 +1,64 @@
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex01.alice' =====
+72
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex02.alice' =====
+--------------- Errors encountered in ExprChecker ---------------
+Type clash for binary operator '+' on line 5. One type is 'number' and the other is 'letter'.
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex03.alice' =====
+--------------- Errors encountered in ExprChecker ---------------
+Type clash in assignment on line 3. One type is 'number' and the other is 'letter'.
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex04.alice' =====
+2
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex05.alice' =====
+Run-time error detected
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex06.alice' =====
+6
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex07.alice' =====
+4
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex08.alice' =====
+23
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex09.alice' =====
+-1
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex10.alice' =====
+150
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex11.alice' =====
+6
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex12.alice' =====
+28
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex13.alice' =====
+42
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex14.alice' =====
+42
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex15.alice' =====
+--------------- Errors encountered in SymbolTable ---------------
+Symbol 'there' with type 'VarDeclStmtNode' already defined in this scope on line 3.
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex16.alice' =====
+--------------- Errors encountered in AliceParser ---------------
+Parse error: 'LexToken(ID,'there',4,56)'.
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex17.alice' =====
+-8
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex18.alice' =====
+9
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex19.alice' =====
+7
+
+===== Analysing file '/homes/mjw03/TeachingFellowship/DevelopmentRepos/MAlice/malice/compiler/tests/archaeology/ex20.alice' =====
+9
+

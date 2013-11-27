@@ -1,0 +1,38 @@
+The looking-glass charArray (number arrLen, letter x, letter y)
+opened
+  z was a letter of 'z'.
+  arr had arrLen letter.
+  i was a number and i became 0.
+  eventually (i == arrLen) because
+    perhaps (i % 2 == 0) so 
+      arr's i piece became x,
+    or maybe (i == 49 || i > 75 && !(i==81)) so
+      arr's i piece became z,
+    or
+      arr's i piece became y.
+    because Alice was unsure which
+    i ate.
+  enough times
+
+  "Array in reverse\n" spoke.
+  i became arrLen - 1.
+  eventually (i < 0) because
+    arr's i piece spoke.
+    i drank.
+  enough times
+closed
+
+The looking-glass hatta () 
+opened
+  arrLen was a number.
+  "Choose an array size" spoke,
+  what was arrLen?
+  perhaps (arrLen < 1) so
+    "Choose a size > 0" spoke.
+  or maybe (arrLen > 1000) so
+    "The array size is too large" spoke.
+  or
+    charArray(arrLen, 'a', 'b').
+  because Alice was unsure which
+closed
+

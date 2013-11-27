@@ -1,0 +1,19 @@
+The looking-glass print (sentence message)
+opened
+  message spoke.
+closed
+
+The looking-glass hatta ()
+opened
+  x was a number, y was a number.
+  "Please enter a number for x" said Alice.
+  what was x?
+  "Please enter a number for y" said Alice.
+  what was y?
+  either (x == y) so
+    print("x and y are equal\n").
+  or
+    print("x and y are unequal\n").
+  because Alice was unsure which.
+closed
+

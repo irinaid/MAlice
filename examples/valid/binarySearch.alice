@@ -1,0 +1,54 @@
+arrSize was a number of 15.
+arr had arrSize number.
+
+The room binarySearch (number key) contained a number
+opened
+  low was a number, high was a number, mid was a number.
+  low became 0.
+  high became arrSize - 1.
+  eventually (low > high) because
+     mid became (low + high) / 2.
+     perhaps (arr's mid piece > key) so
+       high became mid - 1.
+     or maybe (arr's mid piece < key) so
+       low became mid + 1.
+     or 
+       Alice found key.
+     because Alice was unsure which 
+  enough times
+
+  Alice found 0.
+closed
+
+The looking-glass hatta ()
+opened
+   toFind was a number.
+   
+   The looking-glass search ()
+   opened
+     result was a number and result became binarySearch(toFind).
+     perhaps (result != 0) so
+       "Found " spoke and toFind spoke and " in array\n" spoke.
+     or
+       "Unable to find " spoke and toFind spoke and " in array\n" spoke.
+     because Alice was unsure which.
+   closed
+
+   i was a number of 0.
+   eventually (i == arrSize) because
+     arr's i piece became i + (i-1)/2.
+     "Setting arr's " spoke and i spoke and " piece to " spoke then arr's i piece spoke and "\n" said Alice.
+     i ate.
+   enough times
+
+   toFind became 2.
+   search().
+   toFind became 6.
+   search().
+   toFind became 7.
+   search().
+   toFind became 10.
+   search().
+   toFind became 12.
+   search().
+closed

@@ -1,0 +1,77 @@
+randA was a number.
+lim was a number.
+
+The room random (number arrSize) contained a number
+opened
+  randA became (randA * arrSize + 3) % 32749.
+  Alice found ((randA % lim) + 1).
+closed
+
+The looking-glass bubbleSort (spider number arr, number arrSize)
+opened
+  i was a number, j was a number.
+  i became arrSize - 1.
+  eventually (i == 0) because
+    j became 1.
+    eventually (j > i) because
+      perhaps (arr's j-1 piece > arr's j piece) so
+        opened
+          temp was a number, temp became arr's j - 1 piece.
+          arr's j - 1 piece became arr's j piece.
+          arr's j piece became temp.
+        closed
+      because Alice was unsure which
+      j ate.
+    enough times
+    i drank.
+  enough times
+closed
+
+The looking-glass hatta ()
+opened
+  arrSize was a number.
+  
+  The looking-glass initialise (spider number arr)
+  opened
+    i was a number, answer was a number then i became 0.
+    "Do you want to enter a value for each array element? (0 == no, 1 == yes)" spoke.
+    what was answer?
+    eventually (i == arrSize) because 
+      perhaps (answer == 0) so
+        arr's i piece became random(arrSize).
+      or
+        "Enter element " spoke and i spoke.
+        what was arr's i piece?
+      because Alice was unsure which
+      i ate.
+    enough times
+  closed
+
+  The looking-glass output (spider number arr)
+  opened
+    i was a number and i became 0.
+    "{" spoke.
+    eventually (i == arrSize) because
+      arr's i piece said Alice.
+      perhaps (i < ((arrSize - 1))) so
+        "," spoke.
+      because Alice was unsure which.
+      i ate.
+    enough times
+    "}\n" spoke.
+  closed
+
+  randA became 200.
+  lim became 10000.
+  "How many elements are there in the array to be sorted?" spoke.
+  what was arrSize?
+  opened
+    arr had arrSize number.
+    initialise(arr).
+    "Before sorting, the array is: " spoke.
+    output(arr).
+    bubbleSort(arr, arrSize).
+    "After sorting, the array is: " spoke.
+    output(arr).
+  closed
+closed

@@ -1,0 +1,20 @@
+
+The room gcd (number x, number y) contained a number
+opened
+  perhaps (y <= x && x % y == 0) so
+    Alice found y.
+  or maybe (x < y) so
+    Alice found gcd(y, x).
+  or
+    Alice found gcd(y, x%y).
+  because Alice was unsure which
+closed
+
+The looking-glass hatta ()
+opened
+   x was a number and y was a number and z was a number too.
+   "Enter the first number" spoke,  what was x?.
+   "Enter the second number" spoke,  what was y?.
+   z became gcd(x, y).
+   "gcd(" spoke and x spoke and "," spoke and y spoke and ") = " spoke and z said Alice.
+closed

@@ -1,0 +1,54 @@
+vecLen was a number of 10.
+
+### Function to compute dot product of 2 vectors 
+The room dotProduct (spider number vec1, spider number vec2) contained a number
+opened
+  i was a number, total was a number, i became vecLen - 1 then total became 0.
+  eventually (i < 0) because
+    total became vec1's i piece * vec2's i piece + total.
+    i drank.
+  enough times.
+  Alice found total.
+closed
+
+### Procedure to compute cross product of 2 vectors
+The looking-glass crossProduct (spider number vec1, spider number vec2, spider number vec3) 
+opened
+  i was a number of vecLen - 1. 
+  eventually (i < 0) because
+    vec3's i piece became vec1's i piece * vec2's i piece.
+    i drank.
+  enough times.
+closed
+
+The looking-glass hatta ()
+opened
+   startNum was a number of 1000.
+ 
+  The looking-glass initialise (sentence message, spider number vec) 
+   opened
+     i was a number and i became vecLen - 1.
+     message spoke.
+     eventually (i < 0) because
+       vec's i piece became i + startNum % 100.
+       startNum drank.
+       either (startNum < 0) so
+         startNum became 1000.
+       or
+         startNum drank.
+       because Alice was unsure which.
+       vec's i piece said Alice and " " spoke.
+       i drank.
+     enough times 
+     "\n" spoke.
+   closed
+   vec1 had vecLen number.   
+   vec2 had vecLen number.   
+   vec3 had vecLen number.
+   initialise("Values of vector 1: ", vec1).
+   initialise("Values of vector 2: ", vec2).
+   crossProduct(vec1, vec2, vec3).
+   "\nThe dot product of vectors 1 and 2 is " spoke and dotProduct(vec1, vec2) said Alice.
+   "\nThe dot product of vectors 2 and 3 is " spoke and dotProduct(vec2, vec3) said Alice.
+   "\nThe dot product of vectors 1 and 3 is " spoke and dotProduct(vec1, vec3) said Alice.
+closed

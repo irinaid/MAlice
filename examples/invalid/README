@@ -1,0 +1,54 @@
+Below is a description of each test case:
+=========================================
+
+test01.alice : invalid type name used in declaration
+test02.alice : no statement terminator between declarations
+test03.alice : executable code at global scope
+test04.alice : keyword used as an identifier
+test05.alice : upper case used in keyword
+test06.alice : no keyword to open body of function 
+test07.alice : no keyword to close body of function
+test08.alice : no procedure called 'hatta' found (the entry point to the program)
+test09.alice : double declaration of the same symbol
+test10.alice : function does not have a return type specified
+test11.alice : procedure has a return type specified
+test12.alice : function definition after statement inside another function
+test13.alice : type clash between variables and assignments
+test14.alice : unbalanced parentheses in expression
+test15.alice : binary logical operator not applied to logical expressions and assignment from boolean to integer
+test16.alice : relational operator result being assigned to integer
+test17.alice : increment and decrement operators applied to char
+test18.alice : illegal character in name
+test19.alice : illegal character in name
+test20.alice : reference to symbol that is no longer in scope
+test21.alice : declaration after executable code
+test22.alice : referencing an array as an l-value when an r-value is needed
+test23.alice : passing an array by reference where the formal parameter is not expecting a reference
+test24.alice : passing a value where the formal parameter expects an array reference
+test25.alice : 'hatta' declared as a function rather than a procedure
+test26.alice : multiple definitions of 'hatta'
+test27.alice : assigning to an r-value
+test28.alice : invalid application of unary operators
+test29.alice : return value of function ignored and incorrectly expecting a return value from a procedure
+test30.alice : invalid binary expressions
+test31.alice : invalid parameter passing
+test32.alice : incorrectly reading into l-values
+test33.alice : invalid expression in loop header and if statements
+test34.alice : no executable code after declaration
+test35.alice : return values inside function do not match return type
+test36.alice : trying to use scalar declaration as an array 
+
+There are also tests which should fail at run time:
+===================================================
+runTest01.alice : uninitialised variable used
+runTest02.alice : allocating array of negative size
+runTest03.alice : allocating array of size zero
+runTest04.alice : array access more than upper bound
+runTest05.alice : array access less than lower bound
+runTest06.alice : divide by zero
+runTest07.alice : modulo by zero
+runTest08.alice : infinite recursion
+ 
+
+
+

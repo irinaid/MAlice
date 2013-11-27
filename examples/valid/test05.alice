@@ -1,0 +1,15 @@
+The looking-glass hatta ()
+opened
+  x was a number, y was a number, z was a number.
+  x became 100, y became 10.
+  perhaps (x > y*y) so
+    .
+  or maybe (x <= y) so 
+    .
+  or maybe ((y+100/2) * 10  >= y*x) so
+    .
+  or maybe (1 < 2) so
+    .
+  because Alice was unsure which
+closed
+

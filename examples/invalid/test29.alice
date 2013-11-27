@@ -1,0 +1,17 @@
+
+The looking-glass proc (number x)
+opened
+
+closed
+
+The room func (number x) contained a number
+opened
+  Alice found x.
+closed
+
+The looking-glass hatta ()
+opened
+  x was a number, 
+  func(10).
+  x became proc(10).
+closed

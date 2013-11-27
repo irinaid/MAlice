@@ -1,0 +1,29 @@
+arr had 3 number.
+
+The looking-glass output (number x)
+opened
+  "Found " spoke, x spoke, "\n" said Alice.
+closed
+
+The looking-glass hatta () 
+opened
+  arr's 0 piece became 0.
+  arr's 1 piece became 1.
+  arr's 2 piece became 2.
+
+  output(arr's 0 piece).
+  output(arr's 1 piece).
+  output(arr's 2 piece).
+  
+  opened
+    arr had 3 number.
+    arr's 0 piece became 4.
+    arr's 1 piece became 5.
+    arr's 2 piece became 6.
+
+    output(arr's 0 piece).
+    output(arr's 1 piece).
+    output(arr's 2 piece).
+  closed
+closed
+

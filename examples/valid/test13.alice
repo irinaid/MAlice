@@ -1,0 +1,48 @@
+
+The looking-glass printElement (spider number arr, number index) 
+opened
+  "arr[" spoke and index spoke and "] = " spoke, arr's index piece said Alice.
+closed
+
+The room reduction (spider number arr, number arrLen) contained a number
+opened 
+  total was a number of 0 but
+  i was a number and i became 0.
+  eventually (i == arrLen) because
+    total became total + arr's i piece.
+    i ate.
+  enough times
+  Alice found total.
+closed
+
+The looking-glass hatta ()
+opened
+  arrLen was a number of 10.
+  arr had arrLen number.
+  total was a number.
+  
+  The looking-glass initialise ()  
+  opened
+    i was a number and i became 0.
+    eventually (i == arrLen) because
+     arr's i piece became i * 2 + (~(10/3) - (((i + 500)))).
+     i ate.
+    enough times
+  closed
+
+  initialise().
+  total became reduction(arr, arrLen).
+  "Summing the elements of the array gives " said Alice and total spoke and "\n" spoke.
+  "The array has " spoke and arrLen spoke and " elements\n" spoke.
+  "Choose an element to print in the range 0.." spoke, arrLen - 1 spoke.
+  opened
+    elem was a number.
+    what was elem?
+    either (elem < 0 || elem > arrLen - 1) so
+      "Chosen element out of range" said Alice.
+    or
+     printElement (arr, elem).
+    because Alice was unsure which
+  closed 
+closed
+

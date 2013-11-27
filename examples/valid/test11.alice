@@ -1,0 +1,29 @@
+output was a sentence of "***Array handling***\n".
+
+The looking-glass hatta () 
+opened
+  arr had 10 number.
+  output spoke.
+  arr's 0 piece became 0.
+  arr's 1 piece became 10.
+  arr's 2 piece became 20.
+  arr's 3 piece became 30.
+  arr's 4 piece became 40.
+  arr's 5 piece became 50.
+  arr's 6 piece became 60.
+  arr's 7 piece became 70.
+  arr's 8 piece became 80.
+  arr's 9 piece became 90.
+
+  "array element " spoke and 0 spoke and " is " spoke and arr's 0 piece spoke and "\n" spoke. 
+  "array element " spoke and 1 spoke and " is " spoke and arr's 1 piece spoke and "\n" spoke. 
+  "array element " spoke and 2 spoke and " is " spoke and arr's 2 piece spoke and "\n" spoke. 
+  "array element " spoke and 3 spoke and " is " spoke and arr's 3 piece spoke and "\n" spoke. 
+  "array element " spoke and 4 spoke and " is " spoke and arr's 4 piece spoke and "\n" spoke. 
+  "array element " spoke and 5 spoke and " is " spoke and arr's 5 piece spoke and "\n" spoke. 
+  "array element " spoke and 6 spoke and " is " spoke and arr's 6 piece spoke and "\n" spoke. 
+  "array element " spoke and 7 spoke and " is " spoke and arr's 7 piece spoke and "\n" spoke. 
+  "array element " spoke and 8 spoke and " is " spoke and arr's 8 piece spoke and "\n" spoke. 
+  "array element " spoke and 9 spoke and " is " spoke and arr's 9 piece spoke and "\n" spoke. 
+closed
+

@@ -1,0 +1,59 @@
+limit was a number of 10.
+arr had limit number.
+
+The looking-glass hatta ()
+opened
+   The looking-glass initialise () 
+   opened
+     i was a number and i became 0.
+     eventually (i == limit) because
+       perhaps (i == 0 || i == 1) so
+         arr's i piece became 0.
+       or
+         arr's i piece became 1.
+       because Alice was unsure which
+       i ate.
+     enough times 
+   closed
+  
+   The looking-glass findPrimes ()
+   opened
+     The room output () contained a number
+     opened
+       total was a number of 0.
+       i was a number and i became 0.
+       eventually (i == limit) because
+         either (arr's i piece == 1) so
+           i spoke and " is prime\n" said Alice.
+           total ate.
+         or
+           i spoke then " is NOT prime\n" said Alice.
+         because Alice was unsure which
+         i ate.
+       enough times 
+       Alice found total.
+     closed
+
+     i was a number of 2.
+     eventually (i*i >= limit) because
+       perhaps (arr's i piece == 1) so
+         opened
+           j was a number of i.
+           eventually (i*j >= limit) because
+	     arr's i * j piece became 0.
+             j ate.
+	   enough times
+         closed
+       because Alice was unsure which
+       i ate.
+     enough times
+     
+     opened
+      total was a number of output().
+       "There are " said Alice and total spoke and " primes in the first " spoke and limit spoke and " natural numbers" spoke.
+     closed
+   closed
+   
+   initialise().
+   findPrimes().
+closed

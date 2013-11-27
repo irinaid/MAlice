@@ -1,0 +1,19 @@
+
+The room fibonacci (number x) contained a number
+opened
+  perhaps (x == 0) so
+    Alice found 0.
+  or maybe (x == 1) so
+    Alice found 1.
+  or 
+   Alice found fibonacci (x - 1) + fibonacci (x-2).
+  because Alice was unsure which
+closed
+
+The looking-glass hatta ()
+opened
+   x was a number, y was a number.
+   "Which term in the Fibonacci sequence shall I compute?" spoke, what was x?.
+   y became fibonacci(x).
+   "Fib number " spoke and x said Alice and " = " spoke and y said Alice.
+closed
